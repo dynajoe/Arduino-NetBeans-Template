@@ -48,11 +48,11 @@
         </ccTool>
         <linkerTool>
           <linkerAddLib>
-            <pElem>../arduino_corelib/dist/Debug/Arduino-MacOSX</pElem>
+            <pElem>lib/arduino_corelib</pElem>
           </linkerAddLib>
           <linkerLibItems>
-            <linkerLibLibItem>arduino_corelib</linkerLibLibItem>
             <linkerLibStdlibItem>Mathematics</linkerLibStdlibItem>
+            <linkerLibLibItem>arduino_corelib</linkerLibLibItem>
           </linkerLibItems>
           <commandLine>-Os -Wl,--gc-sections -mmcu=atmega328p</commandLine>
         </linkerTool>

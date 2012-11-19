@@ -52,7 +52,7 @@ FFLAGS=
 ASFLAGS=
 
 # Link Libraries and Options
-LDLIBSOPTIONS=-L../arduino_corelib/dist/Debug/Arduino-MacOSX -larduino_corelib -lm
+LDLIBSOPTIONS=-Llib/arduino_corelib -lm -larduino_corelib
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
